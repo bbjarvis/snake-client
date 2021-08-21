@@ -12,16 +12,15 @@ const connect = function () {
   conn.on("connect", () => {
     console.log('Successfully connected to game server')
     conn.write('Name: BBJ');
+    console.log('Connected')
  
   });
+  // runs when data is recieved
   conn.on('data', (data) => {
     console.log(data.toString());
   });
 
-  // stdin.on('data', (userInput) => {
-  //   client.write(`${name} says: ${userInput}`);
-  // })
-
   return conn;
 };
+
 module.exports = connect;
