@@ -11,9 +11,15 @@
   stdin.resume();
   stdin.on("data", (key) => {
     handleUserInput(key);
+
+    // input commands, like move
+    console.log(key==='w'?'up':key==='a'?'left':key==='s'?'down':key==='d'?'down':'');
+
+    return stdin;
   })
-  return stdin;
+
 }
+
  // allow user to exit using ctrl+c
 const handleUserInput = (key) => {
   // \u0003 maps to ctrl+c input
