@@ -13,8 +13,7 @@ There is a Local Server Setup as well. First got [here](https://github.com/light
 
 
 ## Final Product
-![image](https://user-images.githubusercontent.com/72511857/130340979-f029d65e-545b-403e-8f82-95d186224250.png)
-
+![image](https://user-images.githubusercontent.com/72511857/130341029-531be448-d82c-4d6e-b2e1-a8b5fcad20b2.png)
 !["In Game Play"](#)
 
 ## Getting Started
