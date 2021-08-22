@@ -1,3 +1,6 @@
+const { constants } = require("buffer");
+const { MOVE_UP_KEY, MOVE_LEFT_KEY, MOVE_DOWN_KEY, MOVE_RIGHT_KEY, GOOD_JOB_KEY, AWESOME_KEY, TOO_BAD_KEY } = require("./constants");
+
 // stores the active TCP connection object
 let connection;
 /**
@@ -16,26 +19,26 @@ let connection;
     // input commands, getting logged into 'connection' so they can go to play.js
     switch(key) {
       // movement keys
-      case 'w':
+      case MOVE_UP_KEY:
         connection.write('Move: up');
         break;
-      case 'a':
+      case MOVE_LEFT_KEY:
         connection.write('Move: left');
         break;
-      case 's':
+      case MOVE_DOWN_KEY:
         connection.write('Move: down');
         break;
-      case 'd':
+      case MOVE_RIGHT_KEY:
         connection.write('Move: right');
         break;
       // message keys
-      case 'g':
+      case GOOD_JOB_KEY:
         connection.write('Say: Good Job');
         break;
-      case 'e':
+      case AWESOME_KEY:
         connection.write('Say: AWESOME!!!');
         break;
-      case 't':
+      case TOO_BAD_KEY:
         connection.write('Say: Too Bad');
     }
     
