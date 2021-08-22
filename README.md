@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 There is a Local Server Setup as well. First got [here](https://github.com/lighthouse-labs/snek-multiplayer) and clone and run it locally. Follow these steps to run:
 
-![image](https://user-images.githubusercontent.com/72511857/130341012-4ed40a8b-f934-4418-ad4d-49ed51aa4340.png)
+![image](https://user-images.githubusercontent.com/72511857/130341061-2e81c56d-7b3c-43ea-9776-896bb65746ea.png)
 
 
 
