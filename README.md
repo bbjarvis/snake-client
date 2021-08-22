@@ -8,13 +8,14 @@ Before you can run this client, you will need to be running the server side whic
 
 There is a Local Server Setup as well. First got [here](https://github.com/lighthouse-labs/snek-multiplayer) and clone and run it locally. Follow these steps to run:
 
-!["Terminal Setup"](./Vagrant Instructions.png)
+![image](https://user-images.githubusercontent.com/72511857/130340955-16e5b020-cb1d-4d7d-ad65-65408530626c.png)
+
 
 
 ## Final Product
+![image](https://user-images.githubusercontent.com/72511857/130340979-f029d65e-545b-403e-8f82-95d186224250.png)
 
-!["screenshot description"](#)
-!["screenshot description"](#)
+!["In Game Play"](#)
 
 ## Getting Started
 
